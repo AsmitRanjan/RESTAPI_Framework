@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7553" started-at="2020-03-26T13:59:01Z" finished-at="2020-03-26T13:59:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7553" started-at="2020-03-26T13:59:01Z" finished-at="2020-03-26T13:59:09Z">
+      <class name="com.qa.testcases.LockAndUnlockProfileTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.qa.testcases.LockAndUnlockProfileTest@1774679]" name="setupSuite" is-config="true" duration-ms="266" started-at="2020-03-26T19:29:01Z" finished-at="2020-03-26T19:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.qa.testcases.LockAndUnlockProfileTest@1774679]" name="setUpTest" is-config="true" duration-ms="1014" started-at="2020-03-26T19:29:01Z" finished-at="2020-03-26T19:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="LockUnlockUserProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LockAndUnlockProfileTest@1774679]" name="LockUnlockUserProfile" duration-ms="5260" started-at="2020-03-26T19:29:03Z" data-provider="getAPITestData" finished-at="2020-03-26T19:29:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scn 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mfauser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Who is your favorite book/movie character?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Security_Question_36]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[wrongans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LockUnlockUserProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LockAndUnlockProfileTest@1774679]" name="tearDown" is-config="true" duration-ms="344" started-at="2020-03-26T19:29:09Z" finished-at="2020-03-26T19:29:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LockUnlockUserProfile status=SUCCESS method=LockAndUnlockProfileTest.LockUnlockUserProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.LockAndUnlockProfileTest@1774679] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LockAndUnlockProfileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
